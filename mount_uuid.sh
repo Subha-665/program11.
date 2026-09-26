@@ -1,20 +1,15 @@
 #!/bin/bash
 
-# ==========================================
 # Mount Filesystem Using UUID
-# Student Name:
-# Roll Number:
-# ==========================================
 
 # Display filesystem UUID
-sudo blkid
+blkid
 
 # Create mount directory
-sudo mkdir -p /mnt/mydisk
+mkdir -p /mnt/mydisk
 
 # Mount filesystem using UUID
-# Replace YOUR_UUID with actual UUID
-sudo mount UUID=YOUR_UUID /mnt/mydisk
+mount UUID=YOUR_UUID /mnt/mydisk
 
 # Display mounted filesystem
 df -h
